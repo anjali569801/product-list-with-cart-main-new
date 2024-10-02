@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function CartItem({food,removeFromCart}) {
-    // console.log("name",food.name);
+
     const handleOnclick =()=>{
       console.log("namein remove",food.name)
       removeFromCart(food.name)
