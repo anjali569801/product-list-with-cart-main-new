@@ -32,7 +32,7 @@ function FoodCard({food,AddToCart}) {
     <div className=' mt-2 sm:m-6'>
        <div className='relative sm:size-60 size-56'> 
        <div>
-        <img src='src\\assets\\images\\image-waffle-desktop.jpg' alt="imag" className='w-52 rounded-xl sm:w-60 sm:h-56  object-contain '/>
+        <img src='src/assets/images/image-cake-thumbnail.jpg' alt="imag" className='w-52 rounded-xl sm:w-60 sm:h-56  object-contain '/>
         {addCart && (<button onClick={handleAddCart} className='absolute py-1 bg-white left-5 sm:left-8 bottom-2   sm:bottom-1  border-2 border-gray-300  px-8   rounded-full flex items-center '>
           <img src="src\assets\images\icon-add-to-cart.svg" alt="" />
         Add to Cart</button>)}</div>
